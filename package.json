@@ -1,0 +1,27 @@
+{
+	"name": "demo-trpc",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev:server": "tsx watch server",
+		"dev:client": "wait-port 3000 && tsx watch client",
+		"dev": "run-p dev:* --print-label"
+	},
+	"workspaces": [
+		"client",
+		"server"
+	],
+	"author": "Carlos Azaustre <cazaustre@gmail.com> (https://youtube.com/carlosazaustre)",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^18.16.3",
+		"tsx": "^3.12.7",
+		"typescript": "^5.0.4",
+		"wait-port": "^1.0.4"
+	},
+	"dependencies": {
+		"@trpc/client": "^10.23.1"
+	}
+}

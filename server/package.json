@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://youtube.com/carlosazaustre)",
+  "license": "MIT",
+  "dependencies": {
+    "@trpc/server": "^10.23.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3"
+  }
+}
