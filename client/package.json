@@ -1,0 +1,18 @@
+{
+	"name": "client",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Carlos Azaustre <cazaustre@gmail.com> (https://youtube.com/carlosazaustre)",
+	"license": "MIT",
+	"dependencies": {
+		"@trpc/client": "^10.23.1"
+	},
+	"devDependencies": {
+		"@types/node": "^18.16.3"
+	}
+}
